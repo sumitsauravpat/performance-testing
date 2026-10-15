@@ -1,0 +1,570 @@
+{
+  "data": [
+    {
+      "ratePlanProductOfferingId": "rpo-0001-1111-2222-3333-444455556666",
+      "ratePlanName": [
+        { "locale": "en", "text": "5G 20GB Nationwide (up to 1Gbps)" },
+        { "locale": "fr", "text": "5G 20 Go au pays (vitesses jusqu'à 1 Gbit/s)" }
+      ],
+      "ratePlanDescription": [
+        { "locale": "en", "text": "5G 20GB Nationwide (up to 1Gbps)" },
+        { "locale": "fr", "text": "5G 20 Go au pays (vitesses jusqu'à 1 Gbit/s)" }
+      ],
+      "ratePlanRanking": 53,
+      "ratePlanTerms": [
+        {
+          "ratePlanBasePrice": 55,
+          "ratePlanPrice": 45,
+          "ratePlanPriceDuration": "MONTH",
+          "ratePlanDiscountAmount": 0,
+          "ratePlanDiscountDuration": 0,
+          "term": { "termCode": "MONTH", "termName": [] },
+          "promotions": [
+            {
+              "promotionId": "promo-0001-aaaa-bbbb-cccc-dddddddddddd",
+              "promotionTargetDetails": "target-0001-aaaa-bbbb-cccc",
+              "promotionAppliedMode": "NATIVE",
+              "promotionBenefit": [
+                {
+                  "promotionBenefitId": "benefit-0001-aaaa-bbbb",
+                  "applicationMode": "AUTOMATIC",
+                  "promotionBenefitName": [
+                    { "locale": "en", "text": "After checkout, set up auto-pay by bank account in Self Serve to save $10/month" },
+                    { "locale": "fr", "text": "Après l'achat, configurez des paiements préautorisés via Libre-service pour économiser 10 $ par mois" }
+                  ],
+                  "promotionBenefitAmount": 10,
+                  "promotionBenefitActionType": "PriceAlterationAbsolute",
+                  "promotionBenefitDuration": { "amount": 1, "units": "DAY" },
+                  "priceAlterationNature": "DISCOUNT",
+                  "extendedParameters": {
+                    "revenueCodeType": ["REVENUE_CODE_TYPE_QUOTE_DISPLAY_ONLY_AUTOMATED_CODE"],
+                    "revenueCode": ["PADDISC"]
+                  }
+                }
+              ],
+              "extendedParameters": {
+                "internalName": ["ACM-SP-PM-APD"],
+                "updatedBy": ["U100234"],
+                "createdBy": ["U100234"],
+                "promotionAppliedMode": ["NATIVE"]
+              }
+            }
+          ],
+          "promotionCallOut": [
+            { "promotionBenefitDuration": 1, "promotionBenefitDurationUnit": "DAY", "promotionBenefitAmount": 10, "promotionType": "DISCOUNT", "promotionSubType": "preAuthorizedPayment" }
+          ]
+        }
+      ],
+      "marketingBundles": [
+        {
+          "marketingBundleId": "bundle-0001-aaaa-bbbb",
+          "marketingBundleName": "ACM-SP-BDL-BYOD-T14",
+          "marketingBundleRanking": 0,
+          "marketingEnrichment": {
+            "availablePerks": [
+              { "locale": "en", "textList": ["Premium Voicemail"] },
+              { "locale": "fr", "textList": ["Messagerie vocale supérieure"] },
+              { "locale": "en", "textList": ["Rollover Data"] },
+              { "locale": "fr", "textList": ["Données reportées"] },
+              { "locale": "en", "textList": ["3-Day Easy Roam US"] },
+              { "locale": "fr", "textList": ["3 jours de Voyagez Connecté É.-U."] }
+            ],
+            "recommendedPerks": [
+              { "locale": "en", "textList": ["3-Day Easy Roam International"] },
+              { "locale": "fr", "textList": ["3 jours de Voyagez Connecté International"] }
+            ]
+          }
+        }
+      ],
+      "allowances": [
+        {
+          "allowanceType": "includedAllowanceCanadianData",
+          "allowanceIcon": "Speed",
+          "allowanceDescription": [
+            { "locale": "en", "text": "<b>20GB</b> of <b>Shock-Free Data</b>${LEGAL.acm-roaming-rates}${LEGAL.acm-data-speeds} at 5G Speed" },
+            { "locale": "fr", "text": "<b>20 Go</b> de <b>données Zéro Surprise</b>${LEGAL.acm-roaming-rates}${LEGAL.acm-data-speeds} à la vitesse 5G" }
+          ],
+          "allowanceRanking": 0
+        },
+        {
+          "allowanceType": "includedAllowanceTalkText",
+          "allowanceIcon": "Messaging",
+          "allowanceDescription": [
+            { "locale": "en", "text": "<b>Unlimited</b> Canada-wide minutes${LEGAL.acm-calling}" },
+            { "locale": "fr", "text": "Appels <b>illimités</b> partout au Canada${LEGAL.acm-calling}" }
+          ],
+          "allowanceRanking": 0
+        },
+        {
+          "allowanceType": "canadianDataBucket",
+          "allowanceDescription": [
+            { "locale": "en", "text": "20 GB" },
+            { "locale": "fr", "text": "20 Go" }
+          ],
+          "allowanceRanking": 0
+        }
+      ],
+      "features": [
+        { "locale": "en", "textList": ["Call Display, Voicemail, Call Waiting and Conference Calling", "Access to US and International Easy Roam${LEGAL.acm-easy-roam}"] },
+        { "locale": "fr", "textList": ["Affichage des appels, messagerie vocale, appel en attente et conférence téléphonique", "Accédez à Voyagez Connecté aux É.-U. et à l'International${LEGAL.acm-easy-roam}"] }
+      ],
+      "addOns": [
+        {
+          "addOnProductOfferingId": "addon-offer-0001",
+          "addOnRanking": 0,
+          "addOnName": [
+            { "locale": "en", "text": "International Calling On" },
+            { "locale": "fr", "text": "Appels internationaux activés" }
+          ],
+          "extendedParameters": {
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        },
+        {
+          "addOnProductOfferingId": "addon-offer-0002",
+          "addOnRanking": 0,
+          "addOnName": [
+            { "locale": "en", "text": "911 provincial tax" },
+            { "locale": "fr", "text": "Taxe provinciale 911" }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-MOB-ADD-911"],
+            "updatedBy": ["U100234"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        },
+        {
+          "addOnProductOfferingId": "addon-offer-0003",
+          "addOnRanking": 2,
+          "addOnName": [
+            { "locale": "en", "text": "US Easy Roam" },
+            { "locale": "fr", "text": "Voyagez connecté É.-U." }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-ADD-EASYROAM-US"],
+            "updatedBy": ["U100234"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        },
+        {
+          "addOnProductOfferingId": "addon-offer-0004",
+          "addOnRanking": 3,
+          "addOnName": [
+            { "locale": "en", "text": "International Easy Roam" },
+            { "locale": "fr", "text": "Voyagez connecté International" }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-ADD-EASYROAM-INTL"],
+            "updatedBy": ["U100234"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        }
+      ],
+      "ratePlanGroup": {
+        "ratePlanGroupId": "group-mobility-plans",
+        "ratePlanGroupName": [
+          { "locale": "en", "text": "Mobility Plans" },
+          { "locale": "fr", "text": "Forfaits Mobiles" }
+        ],
+        "ratePlanGroupRanking": 0,
+        "extendedParameters": {
+          "productFamilyId": ["[\"pf-0001-aaaa\"]"],
+          "internalName": ["ACM-SP-PCPS-CANWIDE"],
+          "brandName": ["AcmeMobile"],
+          "productFamilyName": ["Mobility"],
+          "updatedBy": ["U100987"],
+          "businessUnit": ["CONSUMER"],
+          "catalogSegment": ["[\"seg-0002-bbbb\",\"seg-0003-cccc\"]"],
+          "brandId": ["[\"brand-0001-aaaa\"]"]
+        }
+      },
+      "quantityInd": false,
+      "templateId": "template-mobility-001",
+      "ribbonText": [{ "locale": "en", "textList": ["Kids plan"] }],
+      "hideRibbon": false,
+      "perks": {
+        "availablePerks": [
+          { "locale": "en", "textList": ["Premium Voicemail"] },
+          { "locale": "fr", "textList": ["Messagerie vocale supérieure"] },
+          { "locale": "en", "textList": ["Rollover Data"] },
+          { "locale": "fr", "textList": ["Données reportées"] }
+        ],
+        "recommendedPerks": [
+          { "locale": "en", "textList": ["3-Day Easy Roam International"] },
+          { "locale": "fr", "textList": ["3 jours de Voyagez Connecté International"] }
+        ]
+      }
+    },
+    {
+      "ratePlanProductOfferingId": "rpo-0002-1111-2222-3333-444455556666",
+      "ratePlanName": [
+        { "locale": "en", "text": "UL Can Min SFD (4G Speed)" },
+        { "locale": "fr", "text": "Min ILL Can DZS (4G Vit.)" }
+      ],
+      "ratePlanDescription": [
+        { "locale": "en", "text": "UL Can Min SFD (4G Speed)" },
+        { "locale": "fr", "text": "Min ILL Can DZS (4G Vit.)" }
+      ],
+      "ratePlanRanking": 10,
+      "ratePlanTerms": [
+        {
+          "ratePlanBasePrice": 35,
+          "ratePlanPrice": 25,
+          "ratePlanPriceDuration": "MONTH",
+          "ratePlanDiscountAmount": 0,
+          "ratePlanDiscountDuration": 0,
+          "term": { "termCode": "MONTH", "termName": [] },
+          "promotions": [],
+          "promotionCallOut": []
+        }
+      ],
+      "marketingBundles": [
+        {
+          "marketingBundleId": "bundle-0002-aaaa-bbbb",
+          "marketingBundleName": "ACM-SP-KCP-BYOD-V2",
+          "marketingBundleRanking": 0,
+          "marketingEnrichment": { "availablePerks": [], "recommendedPerks": [] }
+        }
+      ],
+      "allowances": [
+        {
+          "allowanceType": "includedAllowanceCanadianData",
+          "allowanceIcon": "Speed",
+          "allowanceDescription": [
+            { "locale": "en", "text": "<b>Pay-per-use</b> data" },
+            { "locale": "fr", "text": "Données <b>à l'utilisation</b>" }
+          ],
+          "allowanceRanking": 0
+        },
+        {
+          "allowanceType": "includedAllowanceTalkText",
+          "allowanceIcon": "Messaging",
+          "allowanceDescription": [
+            { "locale": "en", "text": "<b>Unlimited</b> Canada-wide minutes${LEGAL.acm-calling}" },
+            { "locale": "fr", "text": "Appels <b>illimités</b> partout au Canada${LEGAL.acm-calling}" }
+          ],
+          "allowanceRanking": 0
+        }
+      ],
+      "features": [
+        { "locale": "en", "textList": ["Call Display, Voicemail, Call Waiting and Conference Calling"] },
+        { "locale": "fr", "textList": ["Affichage des appels, messagerie vocale, appel en attente et conférence téléphonique"] }
+      ],
+      "addOns": [
+        {
+          "addOnProductOfferingId": "addon-offer-0003",
+          "addOnRanking": 2,
+          "addOnName": [
+            { "locale": "en", "text": "US Easy Roam" },
+            { "locale": "fr", "text": "Voyagez connecté É.-U." }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-ADD-EASYROAM-US"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        },
+        {
+          "addOnProductOfferingId": "addon-offer-0002",
+          "addOnRanking": 0,
+          "addOnName": [
+            { "locale": "en", "text": "911 provincial tax" },
+            { "locale": "fr", "text": "Taxe provinciale 911" }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-MOB-ADD-911"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        }
+      ],
+      "ratePlanGroup": {
+        "ratePlanGroupId": "group-starter-plans",
+        "ratePlanGroupName": [
+          { "locale": "en", "text": "Starter Plans" },
+          { "locale": "fr", "text": "Forfaits de base" }
+        ],
+        "ratePlanGroupRanking": 50,
+        "extendedParameters": {
+          "productFamilyId": ["[\"pf-0001-aaaa\"]"],
+          "internalName": ["ACM-SP-PCPS-STARTER"],
+          "brandName": ["AcmeMobile"],
+          "productFamilyName": ["Mobility"],
+          "updatedBy": ["U100556"],
+          "businessUnit": ["CONSUMER"],
+          "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"],
+          "brandId": ["[\"brand-0001-aaaa\"]"]
+        }
+      },
+      "quantityInd": false,
+      "templateId": "template-mobility-001",
+      "hideRibbon": false,
+      "perks": { "availablePerks": [], "recommendedPerks": [] }
+    },
+    {
+      "ratePlanProductOfferingId": "rpo-0003-1111-2222-3333-444455556666",
+      "ratePlanName": [
+        { "locale": "en", "text": "5G 60GB Canada-US-Mexico (up to 1Gbps)" },
+        { "locale": "fr", "text": "5G 60 Go Canada-É.-U.-Mex (vitesses jusqu'à 1 Gbit/s)" }
+      ],
+      "ratePlanDescription": [
+        { "locale": "en", "text": "5G 60GB Canada-US-Mexico (up to 1Gbps)" },
+        { "locale": "fr", "text": "5G 60 Go Canada-É.-U.-Mex (vitesses jusqu'à 1 Gbit/s)" }
+      ],
+      "ratePlanRanking": 55,
+      "ratePlanTerms": [
+        {
+          "ratePlanBasePrice": 65,
+          "ratePlanPrice": 55,
+          "ratePlanPriceDuration": "MONTH",
+          "ratePlanDiscountAmount": 0,
+          "ratePlanDiscountDuration": 0,
+          "term": { "termCode": "MONTH", "termName": [] },
+          "promotions": [
+            {
+              "promotionId": "promo-0001-aaaa-bbbb-cccc-dddddddddddd",
+              "promotionTargetDetails": "target-0001-aaaa-bbbb-cccc",
+              "promotionAppliedMode": "NATIVE",
+              "promotionBenefit": [
+                {
+                  "promotionBenefitId": "benefit-0001-aaaa-bbbb",
+                  "applicationMode": "AUTOMATIC",
+                  "promotionBenefitName": [
+                    { "locale": "en", "text": "After checkout, set up auto-pay by bank account in Self Serve to save $10/month" },
+                    { "locale": "fr", "text": "Après l'achat, configurez des paiements préautorisés via Libre-service pour économiser 10 $ par mois" }
+                  ],
+                  "promotionBenefitAmount": 10,
+                  "promotionBenefitActionType": "PriceAlterationAbsolute",
+                  "promotionBenefitDuration": { "amount": 1, "units": "DAY" },
+                  "priceAlterationNature": "DISCOUNT",
+                  "extendedParameters": {
+                    "revenueCodeType": ["REVENUE_CODE_TYPE_QUOTE_DISPLAY_ONLY_AUTOMATED_CODE"],
+                    "revenueCode": ["PADDISC"]
+                  }
+                }
+              ],
+              "extendedParameters": {
+                "internalName": ["ACM-SP-PM-APD"],
+                "updatedBy": ["U100234"],
+                "promotionAppliedMode": ["NATIVE"]
+              }
+            }
+          ],
+          "promotionCallOut": [
+            { "promotionBenefitDuration": 1, "promotionBenefitDurationUnit": "DAY", "promotionBenefitAmount": 10, "promotionType": "DISCOUNT", "promotionSubType": "preAuthorizedPayment" }
+          ]
+        }
+      ],
+      "marketingBundles": [
+        {
+          "marketingBundleId": "bundle-0001-aaaa-bbbb",
+          "marketingBundleName": "ACM-SP-BDL-BYOD-T14",
+          "marketingBundleRanking": 0,
+          "marketingEnrichment": {
+            "availablePerks": [
+              { "locale": "en", "textList": ["Premium Voicemail"] },
+              { "locale": "fr", "textList": ["Messagerie vocale supérieure"] },
+              { "locale": "en", "textList": ["Rollover Data"] },
+              { "locale": "fr", "textList": ["Données reportées"] }
+            ],
+            "recommendedPerks": [
+              { "locale": "en", "textList": ["3-Day Easy Roam International"] },
+              { "locale": "fr", "textList": ["3 jours de Voyagez Connecté International"] }
+            ]
+          }
+        }
+      ],
+      "allowances": [
+        {
+          "allowanceType": "includedAllowanceCanadianData",
+          "allowanceIcon": "Speed",
+          "allowanceDescription": [
+            { "locale": "en", "text": "<b>60GB</b> of <b>Shock-Free Data</b>${LEGAL.acm-roaming-rates}${LEGAL.acm-data-speeds} at 5G Speed" },
+            { "locale": "fr", "text": "<b>60 Go</b> de <b>données Zéro Surprise</b>${LEGAL.acm-roaming-rates}${LEGAL.acm-data-speeds} à la vitesse 5G" }
+          ],
+          "allowanceRanking": 0
+        },
+        {
+          "allowanceType": "includedAllowanceTalkText",
+          "allowanceIcon": "Messaging",
+          "allowanceDescription": [
+            { "locale": "en", "text": "<b>Canada-US-Mexico roaming</b> with data, talk and texts" },
+            { "locale": "fr", "text": "<b>Itinérance Canada-É.-U.-Mexique</b>, incluant les données, les appels et les textos" }
+          ],
+          "allowanceRanking": 0
+        }
+      ],
+      "features": [
+        { "locale": "en", "textList": ["Call Display, Voicemail, Call Waiting and Conference Calling", "Access to US and International Easy Roam${LEGAL.acm-easy-roam}"] },
+        { "locale": "fr", "textList": ["Affichage des appels, messagerie vocale, appel en attente et conférence téléphonique", "Accédez à Voyagez Connecté aux É.-U. et à l'International${LEGAL.acm-easy-roam}"] }
+      ],
+      "addOns": [
+        {
+          "addOnProductOfferingId": "addon-offer-0005",
+          "addOnRanking": 0,
+          "addOnName": [
+            { "locale": "en", "text": "$0 Unlimited Long Distance Pack (27 countries, 24 months)" },
+            { "locale": "fr", "text": "0$ Ensemble interurbains illimités (27 pays, 24 mois)" }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-SP-ADD-LD-UNLD27"],
+            "updatedBy": ["U100234"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        },
+        {
+          "addOnProductOfferingId": "addon-offer-0004",
+          "addOnRanking": 3,
+          "addOnName": [
+            { "locale": "en", "text": "International Easy Roam" },
+            { "locale": "fr", "text": "Voyagez connecté International" }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-ADD-EASYROAM-INTL"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        }
+      ],
+      "ratePlanGroup": {
+        "ratePlanGroupId": "group-mobility-plans",
+        "ratePlanGroupName": [
+          { "locale": "en", "text": "Mobility Plans" },
+          { "locale": "fr", "text": "Forfaits Mobiles" }
+        ],
+        "ratePlanGroupRanking": 0,
+        "extendedParameters": {
+          "productFamilyId": ["[\"pf-0001-aaaa\"]"],
+          "internalName": ["ACM-SP-PCPS-CANWIDE"],
+          "brandName": ["AcmeMobile"],
+          "productFamilyName": ["Mobility"],
+          "updatedBy": ["U100987"],
+          "businessUnit": ["CONSUMER"],
+          "catalogSegment": ["[\"seg-0002-bbbb\",\"seg-0003-cccc\"]"],
+          "brandId": ["[\"brand-0001-aaaa\"]"]
+        }
+      },
+      "quantityInd": false,
+      "templateId": "template-mobility-001",
+      "ribbonText": [{ "locale": "en", "textList": ["Canada-US-Mexico roaming"] }],
+      "hideRibbon": false,
+      "perks": {
+        "availablePerks": [
+          { "locale": "en", "textList": ["Premium Voicemail"] },
+          { "locale": "fr", "textList": ["Messagerie vocale supérieure"] }
+        ],
+        "recommendedPerks": [
+          { "locale": "en", "textList": ["3-Day Easy Roam International"] },
+          { "locale": "fr", "textList": ["3 jours de Voyagez Connecté International"] }
+        ]
+      }
+    },
+    {
+      "ratePlanProductOfferingId": "rpo-0004-1111-2222-3333-444455556666",
+      "ratePlanName": [
+        { "locale": "en", "text": "3GB UL Can Min SFD (3G Speed)" },
+        { "locale": "fr", "text": "3Go Min ILL Can DZS (3G Vit.)" }
+      ],
+      "ratePlanDescription": [
+        { "locale": "en", "text": "3GB UL Can Min SFD (3G Speed)" },
+        { "locale": "fr", "text": "3Go Min ILL Can DZS (3G Vit.)" }
+      ],
+      "ratePlanRanking": 35,
+      "ratePlanTerms": [
+        {
+          "ratePlanBasePrice": 35,
+          "ratePlanPrice": 35,
+          "ratePlanPriceDuration": "MONTH",
+          "ratePlanDiscountAmount": 0,
+          "ratePlanDiscountDuration": 0,
+          "term": { "termCode": "MONTH", "termName": [] },
+          "promotions": [],
+          "promotionCallOut": []
+        }
+      ],
+      "marketingBundles": [
+        {
+          "marketingBundleId": "bundle-0002-aaaa-bbbb",
+          "marketingBundleName": "ACM-SP-KCP-BYOD-V2",
+          "marketingBundleRanking": 0,
+          "marketingEnrichment": { "availablePerks": [], "recommendedPerks": [] }
+        }
+      ],
+      "allowances": [
+        {
+          "allowanceType": "includedAllowanceCanadianData",
+          "allowanceIcon": "Speed",
+          "allowanceDescription": [
+            { "locale": "en", "text": "<b>3GB</b> of <b>Shock-Free Data</b>${LEGAL.acm-roaming-rates}${LEGAL.acm-data-speeds} at 3G Speed" },
+            { "locale": "fr", "text": "<b>3 Go</b> de <b>données Zéro Surprise</b>${LEGAL.acm-roaming-rates}${LEGAL.acm-data-speeds} à la vitesse 3G" }
+          ],
+          "allowanceRanking": 0
+        }
+      ],
+      "features": [
+        { "locale": "en", "textList": ["Call Display, Voicemail, Call Waiting and Conference Calling"] },
+        { "locale": "fr", "textList": ["Affichage des appels, messagerie vocale, appel en attente et conférence téléphonique"] }
+      ],
+      "addOns": [
+        {
+          "addOnProductOfferingId": "addon-offer-0004",
+          "addOnRanking": 3,
+          "addOnName": [
+            { "locale": "en", "text": "International Easy Roam" },
+            { "locale": "fr", "text": "Voyagez connecté International" }
+          ],
+          "extendedParameters": {
+            "internalName": ["ACM-ADD-EASYROAM-INTL"],
+            "purposeOfUse": ["ADD_ON"],
+            "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"]
+          },
+          "preselectedInd": true,
+          "price": 0
+        }
+      ],
+      "ratePlanGroup": {
+        "ratePlanGroupId": "group-starter-plans",
+        "ratePlanGroupName": [
+          { "locale": "en", "text": "Starter Plans" },
+          { "locale": "fr", "text": "Forfaits de base" }
+        ],
+        "ratePlanGroupRanking": 50,
+        "extendedParameters": {
+          "productFamilyId": ["[\"pf-0001-aaaa\"]"],
+          "internalName": ["ACM-SP-PCPS-STARTER"],
+          "brandName": ["AcmeMobile"],
+          "productFamilyName": ["Mobility"],
+          "updatedBy": ["U100556"],
+          "businessUnit": ["CONSUMER"],
+          "catalogSegment": ["[\"seg-0001-aaaa\",\"seg-0002-bbbb\",\"seg-0003-cccc\"]"],
+          "brandId": ["[\"brand-0001-aaaa\"]"]
+        }
+      },
+      "quantityInd": false,
+      "templateId": "template-mobility-002",
+      "hideRibbon": false,
+      "perks": { "availablePerks": [], "recommendedPerks": [] }
+    }
+  ]
+}

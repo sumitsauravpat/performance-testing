@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "RESOURCE_NOT_FOUND",
+    "message": "No record found for the given identifier.",
+    "statusCode": 404
+  }
+}

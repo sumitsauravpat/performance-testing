@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+.env
+k6-results/
+npm-debug.log*

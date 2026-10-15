@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "INVALID_REQUEST",
+    "message": "A required parameter is missing or malformed.",
+    "statusCode": 400
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "data": {
+    "quoteId": "a1b2c3d4-0001-4aaa-9bbb-111122223333",
+    "state": "IN_PROGRESS",
+    "brandName": "AcmeMobile",
+    "marketId": "market-ca-on-001",
+    "subscribers": [
+      {
+        "subscriberSequenceNumber": 1,
+        "subscriberId": "sub-0001-aaaa-bbbb-cccc",
+        "productFamilyName": "Mobility",
+        "ratePlan": {
+          "ratePlanId": "plan-5g-nationwide-20gb",
+          "ratePlanName": [
+            { "locale": "en", "name": "5G 20GB Nationwide" },
+            { "locale": "fr", "name": "5G 20 Go national" }
+          ],
+          "ratePlanDescription": [
+            { "locale": "en", "name": "5G 20GB Nationwide (up to 1Gbps)" },
+            { "locale": "fr", "name": "5G 20 Go au pays (vitesses jusqu'à 1 Gbit/s)" }
+          ],
+          "monthlyNoTaxAmount": 55,
+          "monthlyWithTaxAmount": 62.15,
+          "dueTodayNoTaxAmount": 15,
+          "quantity": 1,
+          "categories": [
+            { "categoryId": "cat-speed-5g", "categoryName": [{ "locale": "en", "name": "5G Speed" }, { "locale": "fr", "name": "Vitesse 5G" }] },
+            { "categoryId": "cat-data-bucket", "categoryName": [{ "locale": "en", "name": "20GB Canadian Data" }, { "locale": "fr", "name": "20 Go de données canadiennes" }] },
+            { "categoryId": "cat-talk-text", "categoryName": [{ "locale": "en", "name": "Unlimited Canada-wide talk & text" }, { "locale": "fr", "name": "Appels et textos illimités au Canada" }] }
+          ],
+          "legalDisclaimer": [
+            { "locale": "en", "text": "Data speeds may vary by device and network conditions.${LEGAL.acm-data-speeds} Overage charges may apply once included data is used.${LEGAL.acm-overage}" },
+            { "locale": "fr", "text": "Les vitesses de données peuvent varier selon l'appareil et les conditions du réseau.${LEGAL.acm-data-speeds} Des frais de dépassement peuvent s'appliquer.${LEGAL.acm-overage}" }
+          ]
+        },
+        "addOns": [
+          {
+            "addOnId": "addon-intl-roaming",
+            "addOnName": [
+              { "locale": "en", "name": "International Easy Roam" },
+              { "locale": "fr", "name": "Voyagez connecté International" }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": false
+          },
+          {
+            "addOnId": "addon-911-tax",
+            "addOnName": [
+              { "locale": "en", "name": "911 provincial tax" },
+              { "locale": "fr", "name": "Taxe provinciale 911" }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": true
+          },
+          {
+            "addOnId": "addon-intl-calling",
+            "addOnName": [
+              { "locale": "en", "name": "International Calling On" },
+              { "locale": "fr", "name": "Appels internationaux activés" }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": true
+          },
+          {
+            "addOnId": "addon-us-roam",
+            "addOnName": [
+              { "locale": "en", "name": "US Easy Roam" },
+              { "locale": "fr", "name": "Voyagez connecté É.-U." }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": false
+          }
+        ],
+        "device": {
+          "deviceId": "device-esim-001",
+          "deviceName": [
+            { "locale": "en", "name": "eSIM" },
+            { "locale": "fr", "name": "eSIM" }
+          ],
+          "deviceNoTaxAmount": 15,
+          "priceType": "ONE_TIME"
+        },
+        "pricing": {
+          "dueTodayNoTaxAmount": 15,
+          "dueMonthlyNoTaxAmount": 55,
+          "dueTodayWithTaxAmount": 16.95,
+          "dueMonthlyWithTaxAmount": 62.15
+        }
+      },
+      {
+        "subscriberSequenceNumber": 2,
+        "subscriberId": "sub-0002-aaaa-bbbb-cccc",
+        "productFamilyName": "Mobility",
+        "ratePlan": {
+          "ratePlanId": "plan-5g-nationwide-10gb",
+          "ratePlanName": [
+            { "locale": "en", "name": "5G 10GB Nationwide" },
+            { "locale": "fr", "name": "5G 10 Go national" }
+          ],
+          "ratePlanDescription": [
+            { "locale": "en", "name": "5G 10GB Nationwide (up to 1Gbps)" },
+            { "locale": "fr", "name": "5G 10 Go au pays (vitesses jusqu'à 1 Gbit/s)" }
+          ],
+          "monthlyNoTaxAmount": 40,
+          "monthlyWithTaxAmount": 45.2,
+          "dueTodayNoTaxAmount": 0,
+          "quantity": 1,
+          "categories": [
+            { "categoryId": "cat-speed-5g", "categoryName": [{ "locale": "en", "name": "5G Speed" }, { "locale": "fr", "name": "Vitesse 5G" }] },
+            { "categoryId": "cat-data-bucket", "categoryName": [{ "locale": "en", "name": "10GB Canadian Data" }, { "locale": "fr", "name": "10 Go de données canadiennes" }] }
+          ],
+          "legalDisclaimer": [
+            { "locale": "en", "text": "Data speeds may vary by device and network conditions.${LEGAL.acm-data-speeds}" },
+            { "locale": "fr", "text": "Les vitesses de données peuvent varier selon l'appareil et les conditions du réseau.${LEGAL.acm-data-speeds}" }
+          ]
+        },
+        "addOns": [
+          {
+            "addOnId": "addon-911-tax",
+            "addOnName": [
+              { "locale": "en", "name": "911 provincial tax" },
+              { "locale": "fr", "name": "Taxe provinciale 911" }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": true
+          }
+        ],
+        "device": null,
+        "pricing": {
+          "dueTodayNoTaxAmount": 0,
+          "dueMonthlyNoTaxAmount": 40,
+          "dueTodayWithTaxAmount": 0,
+          "dueMonthlyWithTaxAmount": 45.2
+        }
+      },
+      {
+        "subscriberSequenceNumber": 3,
+        "subscriberId": "sub-0003-aaaa-bbbb-cccc",
+        "productFamilyName": "Mobility",
+        "ratePlan": {
+          "ratePlanId": "plan-5g-nationwide-60gb",
+          "ratePlanName": [
+            { "locale": "en", "name": "5G 60GB Nationwide" },
+            { "locale": "fr", "name": "5G 60 Go national" }
+          ],
+          "ratePlanDescription": [
+            { "locale": "en", "name": "5G 60GB Nationwide (up to 1Gbps)" },
+            { "locale": "fr", "name": "5G 60 Go au pays (vitesses jusqu'à 1 Gbit/s)" }
+          ],
+          "monthlyNoTaxAmount": 60,
+          "monthlyWithTaxAmount": 67.8,
+          "dueTodayNoTaxAmount": 0,
+          "quantity": 1,
+          "categories": [
+            { "categoryId": "cat-speed-5g", "categoryName": [{ "locale": "en", "name": "5G Speed" }, { "locale": "fr", "name": "Vitesse 5G" }] },
+            { "categoryId": "cat-data-bucket", "categoryName": [{ "locale": "en", "name": "60GB Canadian Data" }, { "locale": "fr", "name": "60 Go de données canadiennes" }] },
+            { "categoryId": "cat-roaming", "categoryName": [{ "locale": "en", "name": "Canada-US-Mexico roaming" }, { "locale": "fr", "name": "Itinérance Canada-É.-U.-Mexique" }] }
+          ],
+          "legalDisclaimer": [
+            { "locale": "en", "text": "Roaming rates apply outside of included zones.${LEGAL.acm-roaming-rates}" },
+            { "locale": "fr", "text": "Des frais d'itinérance s'appliquent hors des zones incluses.${LEGAL.acm-roaming-rates}" }
+          ]
+        },
+        "addOns": [
+          {
+            "addOnId": "addon-intl-calling",
+            "addOnName": [
+              { "locale": "en", "name": "International Calling On" },
+              { "locale": "fr", "name": "Appels internationaux activés" }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": true
+          },
+          {
+            "addOnId": "addon-911-tax",
+            "addOnName": [
+              { "locale": "en", "name": "911 provincial tax" },
+              { "locale": "fr", "name": "Taxe provinciale 911" }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": true
+          },
+          {
+            "addOnId": "addon-long-distance",
+            "addOnName": [
+              { "locale": "en", "name": "$0 Unlimited Long Distance Pack (27 countries, 24 months)" },
+              { "locale": "fr", "name": "0$ Ensemble interurbains illimités (27 pays, 24 mois)" }
+            ],
+            "addOnNoTaxAmount": 0,
+            "includedInd": true
+          }
+        ],
+        "device": {
+          "deviceId": "device-phone-premium-001",
+          "deviceName": [
+            { "locale": "en", "name": "Premium Smartphone 256GB" },
+            { "locale": "fr", "name": "Téléphone intelligent haut de gamme 256 Go" }
+          ],
+          "deviceNoTaxAmount": 199,
+          "priceType": "ONE_TIME"
+        },
+        "pricing": {
+          "dueTodayNoTaxAmount": 199,
+          "dueMonthlyNoTaxAmount": 60,
+          "dueTodayWithTaxAmount": 224.87,
+          "dueMonthlyWithTaxAmount": 67.8
+        }
+      },
+      {
+        "subscriberSequenceNumber": 4,
+        "subscriberId": "sub-0004-aaaa-bbbb-cccc",
+        "productFamilyName": "Mobility",
+        "ratePlan": {
+          "ratePlanId": "plan-3g-starter-3gb",
+          "ratePlanName": [
+            { "locale": "en", "name": "3GB UL Can Min SFD (3G Speed)" },
+            { "locale": "fr", "name": "3Go Min ILL Can DZS (3G Vit.)" }
+          ],
+          "ratePlanDescription": [
+            { "locale": "en", "name": "3GB UL Can Min SFD (3G Speed)" },
+            { "locale": "fr", "name": "3Go Min ILL Can DZS (3G Vit.)" }
+          ],
+          "monthlyNoTaxAmount": 35,
+          "monthlyWithTaxAmount": 39.55,
+          "dueTodayNoTaxAmount": 0,
+          "quantity": 1,
+          "categories": [
+            { "categoryId": "cat-speed-3g", "categoryName": [{ "locale": "en", "name": "3G Speed" }, { "locale": "fr", "name": "Vitesse 3G" }] },
+            { "categoryId": "cat-data-bucket", "categoryName": [{ "locale": "en", "name": "3GB Canadian Data" }, { "locale": "fr", "name": "3 Go de données canadiennes" }] }
+          ],
+          "legalDisclaimer": [
+            { "locale": "en", "text": "Unlimited talk and text within Canada only.${LEGAL.acm-calling}" },
+            { "locale": "fr", "text": "Appels et textos illimités au Canada seulement.${LEGAL.acm-calling}" }
+          ]
+        },
+        "addOns": [],
+        "device": null,
+        "pricing": {
+          "dueTodayNoTaxAmount": 0,
+          "dueMonthlyNoTaxAmount": 35,
+          "dueTodayWithTaxAmount": 0,
+          "dueMonthlyWithTaxAmount": 39.55
+        }
+      }
+    ],
+    "totals": {
+      "dueTodayNoTaxTotalAmount": 214,
+      "dueMonthlyNoTaxTotalAmount": 190,
+      "dueTodayWithTaxTotalAmount": 241.82,
+      "dueMonthlyWithTaxTotalAmount": 214.7
+    }
+  }
+}
