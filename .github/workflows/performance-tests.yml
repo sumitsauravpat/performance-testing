@@ -1,0 +1,16 @@
+name: "Performance Tests"
+on:
+  push:
+
+jobs:
+  performance-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t performance-testing-mock .
+      - run: docker run -d -p 3000:3000 performance-testing-mock
+      - run: sleep 5
+      - uses: grafana/setup-k6-action@v1
+      - run: k6 run k6-scripts/order-summary-load.js
+      - run: k6 run k6-scripts/product-catalog-load.js
+      - run: k6 run k6-scripts/update-order-load.js

@@ -3,3 +3,4 @@ node_modules/
 .env
 k6-results/
 npm-debug.log*
+k6-scripts/blazemeter/

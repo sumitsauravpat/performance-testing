@@ -1,0 +1,181 @@
+{
+  "data": {
+    "quoteId": "b2c3d4e5-0002-4bbb-9ccc-222233334444",
+    "salesSummary": {
+      "distributionChannelId": "ACM_CHANNEL_OUTLET_2000011",
+      "customerCategoryId": "cat-0001-aaaa-bbbb-cccc",
+      "brandName": "AcmeMobile",
+      "quoteId": "b2c3d4e5-0002-4bbb-9ccc-222233334444",
+      "state": "IN_PROGRESS",
+      "marketId": "market-0001-aaaa-bbbb-cccc",
+      "serviceAddressDetails": {},
+      "businessTransactionId": "00099991234",
+      "skipPaymentCaptureInd": false,
+      "contactMedium": [
+        {
+          "preferred": true,
+          "characteristic": {
+            "extendedAttributes": {
+              "businessGroupId": ["bg-0001-aaaa-bbbb"],
+              "subscriberSequenceNumber": ["1"]
+            }
+          },
+          "type": "telephone number"
+        },
+        {
+          "characteristic": {
+            "extendedAttributes": {
+              "deliveryItemId": ["delivery-0001-aaaa-bbbb"]
+            }
+          },
+          "type": "postal address"
+        }
+      ],
+      "extendedParameters": {
+        "businessUnit": ["CONSUMER"],
+        "initialMRCTotal": ["0"],
+        "customerCategoryHierarchyUUIDs": ["cat-0001-aaaa-bbbb,cat-0002-cccc-dddd"],
+        "businessTransactionId": ["00099991234"],
+        "transactionExternalId": ["mock-commerce-mobility-unassisted-00001111-2222-3333"],
+        "initialOTCTotal": ["0"],
+        "selfServeRegistrationStatus": ["New"],
+        "isEmbargoValidated": ["True"],
+        "customerExternalCategories": ["R,I"],
+        "distributionChannelId": ["ACM_CHANNEL_OUTLET_2000011"],
+        "virtualItemsFetchMode": ["DISABLED"],
+        "mfeProductFamily": ["Mobility"]
+      },
+      "salesSummaryItems": [
+        {
+          "ratePlanQuoteItemId": "item-0001-aaaa-bbbb-cccc",
+          "subscriberBusinessGroupId": "bg-0001-aaaa-bbbb",
+          "productSpecificationId": "spec-0001-aaaa-bbbb",
+          "purposeOfUse": "CORE_PRODUCT",
+          "createTime": "2026-10-15T19:52:24.043626866Z",
+          "marketId": "market-0001-aaaa-bbbb-cccc",
+          "productFamilyName": "Mobility",
+          "paymentPeriod": "Monthly",
+          "productTypeId": "type-0001-aaaa-bbbb",
+          "dueTodayNoTaxAmount": 15,
+          "dueMonthlyNoTaxAmount": 55,
+          "marketingBundleId": "bundle-0001-aaaa-bbbb",
+          "ratePlanProductOfferingId": "rpo-0001-1111-2222-3333-444455556666",
+          "ratePlanNoTaxAmount": 55,
+          "ratePlanNoTaxBaseAmount": 55,
+          "ratePlanWithTaxAmount": 55,
+          "ratePlanIndividualNoTaxAmount": 55,
+          "ratePlanIndividualWithTaxAmount": 55,
+          "quantity": 1,
+          "subscriptionTaxes": [],
+          "taxApplied": false,
+          "businessAction": "Activation,Create New Account",
+          "ratePlanExtendedParameters": {
+            "transactionType": ["ACT"],
+            "purposeOfUse": ["CORE_PRODUCT"],
+            "customerSmartphoneMobSeqNum": ["1"],
+            "taxCalculationDetail": ["taxApplied=false", "taxCode=N/A"],
+            "involvedViaCategory": ["type-0001-aaaa-bbbb"],
+            "customerMobileLineSeqNum": ["1"],
+            "serviceAreaCode": ["ON"],
+            "hierarchyUnrolled": ["true"]
+          },
+          "ratePlanName": [{ "name": "5G 20GB Nationwide (up to 1Gbps)", "locale": "en" }],
+          "ratePlanCharacteristics": [
+            {
+              "id": "char-0001-aaaa-bbbb",
+              "name": "Pre-authorized Payment Discountable Plan",
+              "value": ["true"],
+              "rawValue": ["true"]
+            }
+          ],
+          "addOnsDetails": [],
+          "deviceDetails": [
+            {
+              "deviceProductOfferingId": "device-offer-0001-aaaa",
+              "deviceQuoteItemId": "device-item-0001-aaaa",
+              "deviceTypeName": "ACM-MOB-EQ-ESIM01 #1",
+              "deviceName": [{ "name": "eSIM", "locale": "en" }],
+              "productCode": "ESIM01",
+              "deviceNoTaxBaseAmount": 15,
+              "deviceNoTaxAmount": 15,
+              "deviceWithTaxAmount": 15,
+              "priceType": "NRC",
+              "paymentPeriod": "One-time Fee",
+              "createTime": "2026-10-15T19:52:24.066561747Z",
+              "deviceTaxes": [],
+              "taxApplied": false,
+              "purposeOfUse": "EQUIPMENT",
+              "extendedParameters": {
+                "purposeOfUse": ["EQUIPMENT"],
+                "taxCalculationDetail": ["taxApplied=false", "taxCode=N/A"]
+              },
+              "simType": "E_SIM",
+              "productCharacteristics": [
+                { "id": "char-0002-aaaa", "name": "SAP Material Code", "value": ["NESIM01"], "rawValue": ["NESIM01"] },
+                { "id": "char-0003-aaaa", "name": "Fulfillment SKU", "value": ["ESIM01"], "rawValue": ["ESIM01"] }
+              ],
+              "promotionDetails": []
+            }
+          ],
+          "upfrontPaymentItems": [
+            {
+              "quoteItemId": "device-item-0001-aaaa",
+              "purposeOfUse": "EQUIPMENT",
+              "amount": 15,
+              "currency": "CAD",
+              "payRefCode": "MOCK-PAYREF-0001"
+            }
+          ],
+          "subscriberSequenceNumber": 1
+        }
+      ],
+      "externalRefs": [],
+      "upfrontPaymentItems": [
+        {
+          "quoteItemId": "device-item-0001-aaaa",
+          "purposeOfUse": "EQUIPMENT",
+          "amount": 15,
+          "currency": "CAD",
+          "payRefCode": "MOCK-PAYREF-0001"
+        }
+      ],
+      "dueTodayNoTaxTotalAmount": 15,
+      "dueMonthlyNoTaxTotalAmount": 55,
+      "dueYearlyNoTaxTotalAmount": 0,
+      "dueTodayWithTaxTotalAmount": 15,
+      "dueMonthlyWithTaxTotalAmount": 55,
+      "dueYearlyWithTaxTotalAmount": 0,
+      "totalUpfrontPaymentItems": [
+        {
+          "quoteItems": [{ "id": "device-item-0001-aaaa", "purposeOfUse": "EQUIPMENT" }],
+          "amount": 15,
+          "currency": "CAD",
+          "payRefCode": "MOCK-PAYREF-0001"
+        }
+      ],
+      "subscriber": [
+        {
+          "subscriberSequenceNumber": 1,
+          "ratePlanQuoteItemId": "item-0001-aaaa-bbbb-cccc",
+          "subscriberBusinessGroupId": "bg-0001-aaaa-bbbb",
+          "productFamilyName": "Mobility",
+          "productTypeId": "type-0001-aaaa-bbbb",
+          "marketingBundleId": "bundle-0001-aaaa-bbbb",
+          "ratePlanProductOfferingId": "rpo-0001-1111-2222-3333-444455556666",
+          "deviceProductOfferingId": ["device-offer-0001-aaaa"],
+          "simType": "E_SIM",
+          "deviceSku": "ESIM01",
+          "marketId": "market-0001-aaaa-bbbb-cccc"
+        }
+      ],
+      "allCoreProductsLikeForLikeInd": false,
+      "productRules": {
+        "shippingAddressRequired": false,
+        "billingAddressRequired": false,
+        "serviceAddressRequired": false,
+        "enableForFinancing": true,
+        "allCoreProductsLikeForLikeInd": false
+      }
+    }
+  }
+}
